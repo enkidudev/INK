@@ -1,0 +1,4 @@
+user,secret,type,domain,host,service,source
+kim,pass2,password,REVACHOL,WS01,SMB,Fictional demonstration
+harry,vodka,password,REVACHOL,DC01,WinRM,Fictional demonstration
+cuno,pig,password,REVACHOL,SQL01,MSSQL,Fictional demonstration
