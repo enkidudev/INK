@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "enkidu-ink"
+version = "0.1.0"
+description = "Keep what the terminal forgets."
+requires-python = ">=3.10"
+dependencies = ["cryptography>=41"]
+[project.scripts]
+ink = "ink.cli:main"
+[tool.setuptools.package-data]
+ink = ["report.html"]
